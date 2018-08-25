@@ -1,4 +1,4 @@
-# MergeBibFiles -- A simple way to merge bibtex files
+# MergeBibFiles.py -- A simple way to merge bibtex files
 
 ## A simple tool for a simple but common task
 
