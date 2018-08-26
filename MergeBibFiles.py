@@ -11,9 +11,8 @@ bib_folder = './bibfiles/'
 # from pybtex.database import parse_file, BibliographyData, Entry #also troubles
 
 def split_bibtext(bibtext):
-    '''Converts a bibtex text into (keys,entries).
-       entries is a list of the bibtex entries  and keys a list of the keys.
-       Each entry needs to start in the beginning of a line.'''
+    '''Converts a bibtex text into (keys,entries), where entries is a list of the bibtex entries  and keys a list of the keys.
+       The "@" in the beginning of entry needs to be the first non-space character of a line.'''
     if '@' not in bibtext:
         return ([],[])
     
